@@ -1,4 +1,4 @@
 # meetgithub
-My first git repository file.
+My first github repository file.
 <br>
 Author-Md.Foysal Kabir Digonto
