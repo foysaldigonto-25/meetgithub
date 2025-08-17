@@ -35,11 +35,11 @@ int main()
 //divisible by 5, print "Buzz". If the number is divisible by both 3 and 5, print
 //"FizzBuzz". Otherwise, print the number itself.
 <br>
-#include <iostream>
+#include <.iostream>
 using namespace std;
 
-int main()
-{
+int main(){
+<br>
     int n;
 
     cout << "Enter a number: ";
