@@ -4,10 +4,10 @@ My first github repository file.
 Author-Md.Foysal Kabir Digonto
 <br>
 <br>
-From here the codes i have practiced so far...
+From here the codes I have practiced so far...
 <br>
 <br>
-1.//Write a C++ program that prints all the odd numbers in the range from 1 to 100 using a loop.
+1.Write a C++ program that prints all the odd numbers in the range from 1 to 100 using a loop.
 <br>
 
 #include <.iostream>
@@ -147,6 +147,35 @@ int main()
 
     return 0;
 }
+
+5.Write a C++ program that: Takes a string as input from the user. Reverses the string
+using built-in functions. Prints the reversed string as output.
+
+#include <.iostream>
+<br>
+#include <algorithm> // reverse() function এর জন্য
+<br>
+#include <string>
+<br>
+using namespace std;
+
+int main() {
+<br>
+    string str;
+
+    // ইউজারের কাছ থেকে ইনপুট নেওয়া
+    cout << "Enter a string: ";
+    getline(cin, str);
+
+    // স্ট্রিং রিভার্স করা (built-in function দিয়ে)
+    reverse(str.begin(), str.end());
+
+    // আউটপুট প্রিন্ট করা
+    cout << "Reversed string: " << str << endl;
+
+    return 0;
+}
+
 
 
 
