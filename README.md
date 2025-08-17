@@ -11,6 +11,7 @@ From here the codes i have practiced so far...
 <br>
 
 #include <iostream>
+#include <conio.h>
 using namespace std;
 
 int main()
@@ -24,6 +25,6 @@ int main()
             }
 
     }
-    return 0;
+    getch();
 }
 
