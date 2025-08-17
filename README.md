@@ -8,6 +8,7 @@ From here the codes i have practiced so far...
 <br>
 <br>
 1.//Write a C++ program that prints all the odd numbers in the range from 1 to 100 using a loop.
+<br>
 
 #include <iostream>
 using namespace std;
