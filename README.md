@@ -30,3 +30,44 @@ int main()
     getch();
 }
 
+2.//C++ program that: Takes an input number from the user. Checks every number from
+//1 to that number and: If the number is divisible by 3, print "Fizz". If the number is
+//divisible by 5, print "Buzz". If the number is divisible by both 3 and 5, print
+//"FizzBuzz". Otherwise, print the number itself.
+<br>
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int n;
+
+    cout << "Enter a number: ";
+    cin >> n;
+
+    for (int i = 1; i <= n; i++)
+
+        {
+
+        if (i % 3 == 0 && i % 5 == 0)
+        {
+            cout << "FizzBuzz" << endl;
+        }
+      else if (i % 3 == 0)
+        {
+            cout << "Fizz" << endl;
+        }
+        else if (i % 5 == 0)
+        {
+            cout << "Buzz" << endl;
+        }
+        else
+        {
+            cout << i << endl;
+        }
+    }
+
+    return 0;
+}
+
+
